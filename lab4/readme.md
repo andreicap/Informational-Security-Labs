@@ -24,7 +24,16 @@ There is a lot of information, but a big part is apparently useless for the task
 
 ##### Metadata analysis
 Analyzing the metadata from the files I found out:
-  * Cameras used: `Canon PowerShot SX230` HS & `Cannon PowerShot A550`
+  * Cameras used: `Canon PowerShot SX230` HS & `Cannon PowerShot A550`.
   * Photos of Alex Railean were taken at a beach, in WA, USA (near Pacific Ocean), according to GPS data from the photos metadata.
-  * In the documents was found the `info.railean.net` link, with a little of digging, more info about Alex Railean could be foun [here](http://railean.net/index.php/2007/02/11/about_alex_railean).
-  * 
+  * In the documents was found the `info.railean.net` link, with a little of digging, more info about Alex Railean could be found [here](http://railean.net/index.php/2007/02/11/about_alex_railean).
+  * Alex is a MS Windows user, as a lot of files have specifics of Windows ones. (bat files, screenshots of apps).
+  * Alex is employed at `DEKART`.
+##### Questions
+*Has the suspect ever visited the Kingdom of Jvompihia?  
+Were they hiding anything on that flash disk on purpose?*  
+I found this questions bound.
+As it turns, the owner of the information *may* have visited Jvompihia. Using a `hex viewer` I got a string that says that:  
+```
+...6egÜh¶Üh»m¸!ÊﬂÒeèÇ∞H&‰ÿ7`¯Yes, I have been to Jvompihia back in 2011 and I met the king himself. Code-word: zubrique. Haha, only serious! Yes, you got it! Yeehaw! «œ ...
+```
