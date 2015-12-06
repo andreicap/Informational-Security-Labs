@@ -14,17 +14,20 @@ A cryptographic hash function is a hash function which is considered practically
 1. Makes list of files located in the directory and subdirectories where the program is located. (included hidden files).
 2. Encodes (using `MD5` hashing algorithm) the content of the file into a checksum.
 3. Stores the checksum into a `Hash` container as a `key` (new key if there is no precedent) and the filename as a value for that key into a table, as follows:
-  ```ruby
-  { "key" => ["filename1.ext", "filename2.ext"] } 
-  ```
+
+```ruby
+{ "key" => ["filename1.ext", "filename2.ext"] } 
+```
 4. Outputs the results for which table with filenames has size  > 2. Result example:
-  ```
-  duplicates:
-    test_folder/text1.txt
-    test_folder/text2.txt
-    text1.txt
-    text2.txt
-   ```
+
+```
+duplicates:
+  test_folder/text1.txt
+  test_folder/text2.txt
+  text1.txt
+  text2.txt
+ ```
+
 ##### How to use
 You have to have `Ruby` installed in first place.
 Place inside folder is wanted to be scanned and then run in your favourite CLI 
