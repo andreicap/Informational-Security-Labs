@@ -14,7 +14,7 @@ Document your findings and understand who owned the flash card and whether they'
 
 ##### File extraction
 A image in bin format was given and its SHA1 checksum:  
-File: `evidence.bin`. **SHA1**: `3c2094f2d62cb530ac642591c34ad86ab15fe88b`
+File: `evidence.bin`. **SHA1**: `759011725c2805b9ff7e6de898d63364968475fb`
 
 To get information divided files from the image I used `Photorec` program as recommended.  
 A total of 92 files was recovered with different types: text files, images (.jpgs & .pngs), audio files, archives(rar, pkcs), documents(pdf, doc, xls).
