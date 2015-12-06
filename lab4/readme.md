@@ -40,5 +40,5 @@ As it turns, the owner of the information *may* have visited Jvompihia. Using a 
 As this info isn't findble in the files directly or their metadata, then it's hidden into a file stream most probably.
 
 ##### Cracking .pfx files
-Cracking the .pfx file password (5 chars) using a small utility found on internets and importing the certificate in Keychain gave me a lot of information: country, state/province, locality, organization, work address, postal code, Name Surname, work e-mail address, company domain and details about encryption used.
+Cracking the .pfx file password (5 chars) using a small utility found on internets (`crackpkcs12`) and importing the certificate in Keychain gave me a lot of information: country, state/province, locality, organization, work address, postal code, Name Surname, work e-mail address, company domain and details about encryption used.
 
