@@ -19,6 +19,3 @@ hashes.each_value do |file_array|
     file_array.each { |file| puts '  ' +file }
   end
 end
-
-puts
-pp hashes
