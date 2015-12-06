@@ -21,19 +21,24 @@ A total of 92 files was recovered with different types: text files, images (.jpg
 
 ##### Conclusions after first diving into files
 There is a lot of information, but a big part is apparently useless for the task. Audiobooks, source codes, books, students lists. All these files leads to the conclusion: **This info belongs to Alex Railean, a FAF (TUM) teacher of Network Programming and Informational Security**.
-
+___
 ##### Metadata analysis
 Analyzing the metadata from the files I found out:
   * Cameras used: `Canon PowerShot SX230` HS & `Cannon PowerShot A550`.
   * Photos of Alex Railean were taken at a beach, in WA, USA (near Pacific Ocean), according to GPS data from the photos metadata.
   * In the documents was found the `info.railean.net` link, with a little of digging, more info about Alex Railean could be found [here](http://railean.net/index.php/2007/02/11/about_alex_railean).
-  * Alex is a MS Windows user, as a lot of files have specifics of Windows ones. (bat files, screenshots of apps).
+  * Alex is a MS Windows user, as a lot of files have specifics of Windows ones. (bat files, screenshots of apps and also `Author(Alex Railean)/Creator(Microsoft Office Word 2007)`).
   * Alex is employed at `DEKART`.
 ##### Questions
 *Has the suspect ever visited the Kingdom of Jvompihia?  
 Were they hiding anything on that flash disk on purpose?*  
 I found this questions bound.
 As it turns, the owner of the information *may* have visited Jvompihia. Using a `hex viewer` I got a string that says that:  
-```
-...6egÜh¶Üh»m¸!ÊﬂÒeèÇ∞H&‰ÿ7`¯Yes, I have been to Jvompihia back in 2011 and I met the king himself. Code-word: zubrique. Haha, only serious! Yes, you got it! Yeehaw! «œ ...
-```
+    ```
+    ...6egÜh¶Üh»m¸!ÊﬂÒeèÇ∞H&‰ÿ7`¯Yes, I have been to Jvompihia back in 2011 and I met the king himself. Code-word: zubrique. Haha, only serious! Yes, you got it! Yeehaw! «œ ...
+    ```  
+As this info isn't findble in the files directly or their metadata, then it's hidden into a file stream most probably.
+
+##### Cracking .pfx files
+Cracking the .pfx file password (5 chars) using a small utility found on internets and importing the certificate in Keychain gave me a lot of information: country, state/province, locality, organization, work address, postal code, Name Surname, work e-mail address, company domain and details about encryption used.
+
