@@ -18,6 +18,7 @@ A cryptographic hash function is a hash function which is considered practically
 ```ruby
 { "key" => ["filename1.ext", "filename2.ext"] } 
 ```
+
 4. Outputs the results for which table with filenames has size  > 2. Result example:
 
 ```
