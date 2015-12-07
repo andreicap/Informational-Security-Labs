@@ -30,6 +30,8 @@ Analyzing the metadata from the files I found out:
   * Alex is a MS Windows user, as a lot of files have specifics of Windows ones. (bat files, screenshots of apps and also `Author(Alex Railean)/Creator(Microsoft Office Word 2007)`).
   * Alex is employed at `DEKART`.
   * People that interacted with Alex are FAF-081 students and some teachers from TUM.
+
+
 ##### Questions
 *Has the suspect ever visited the Kingdom of Jvompihia?  
 Were they hiding anything on that flash disk on purpose?*  
