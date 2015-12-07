@@ -29,6 +29,7 @@ Analyzing the metadata from the files I found out:
   * In the documents was found the `info.railean.net` link, with a little of digging, more info about Alex Railean could be found [here](http://railean.net/index.php/2007/02/11/about_alex_railean).
   * Alex is a MS Windows user, as a lot of files have specifics of Windows ones. (bat files, screenshots of apps and also `Author(Alex Railean)/Creator(Microsoft Office Word 2007)`).
   * Alex is employed at `DEKART`.
+  * People that interacted with Alex are FAF-081 students and some teachers from TUM.
 ##### Questions
 *Has the suspect ever visited the Kingdom of Jvompihia?  
 Were they hiding anything on that flash disk on purpose?*  
@@ -41,4 +42,21 @@ As this info isn't findble in the files directly or their metadata, then it's hi
 
 ##### Cracking .pfx files
 Cracking the .pfx file password (5 chars) using a small utility found on internets (`crackpkcs12`) and importing the certificate in Keychain gave me a lot of information: country, state/province, locality, organization, work address, postal code, Name Surname, work e-mail address, company domain and details about encryption used.
+
+
+##### Conclusion
+During this laboratory work I experienced mixed feelings about what is good and bad about this. Because information carved this way can be used for both bad and (averagely) good purposes. 
+You can find a lot about a person just digging into some apparently random data.
+
+
+
+
+
+
+
+
+
+
+
+
 
