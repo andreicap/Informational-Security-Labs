@@ -58,5 +58,3 @@ You can find a lot about a person just digging into some apparently random data.
 
 
 
-
-
