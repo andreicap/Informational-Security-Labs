@@ -126,6 +126,7 @@ Aha! `eval` again. This is apparently same backdoor I found earlier.
 This is helping the bad guy to upload its files on the server.
 
 Conlcusion
+_________
 
 Because of not knowing PHP frameworks at all it was quite challenging. Initially I was stuck about what to do and just went trough files and did not found much. Searching on internets helped. Also asking guys that knows some more stuff about it helped even more.
 It is quite clear that a beginner would have troubles with security using popular CMS-es. That given, one should always learn and verify for security breaches, especially when dealing with some sensitive data.
