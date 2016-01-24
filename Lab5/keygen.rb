@@ -9,7 +9,7 @@ class ProductKey
     @length = l
   end
 
-  def create(private_key, pass="password")
+  def generate(private_key, pass="password")
     priv = OpenSSL::PKey::RSA.new private_key
     s = pass + SecureRandom.random_bytes(@length)
     Base64.encode64(priv.private_encrypt(s))
@@ -30,7 +30,7 @@ end
 
 # p = ProductKey.new(20)
 
-# pp p.create('-----BEGIN RSA PRIVATE KEY-----
+# pp p.generate('-----BEGIN RSA PRIVATE KEY-----
 # MIIBOwIBAAJBALbkpbDFbZ54bM5ybwwdCqsUHjxWQF4B0Q1sAOBFEYdpxZJZ8dAz
 # ycPzIgSlPc8yqjeqwJQtvCpktrntALpX1ksCAwEAAQJAYT0XyvBs48BrOSgmWm5m
 # aab8nF/PQSv+FgDCRnryYue3WZOpUqITB0w6ivC68G/+Mf6IXyE4ljqw2iIAdjyv
