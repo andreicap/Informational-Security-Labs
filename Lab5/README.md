@@ -21,7 +21,8 @@ It will:
 - generate a random sequence of bytes and add it to password string;
 - encrypt the result of previous step using the private key generated at first step;
 - encode it into BASE64 and return the result, which is our key.
-- 
+
+
 
 The method `check` looks like this:
 ```
